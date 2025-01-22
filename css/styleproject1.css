@@ -1,0 +1,325 @@
+/*cssreset*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../imagesp1/achtergrond.jpg');
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;
+}
+
+header {  
+    background-color: #58200e;
+    height: 50px;
+    line-height: 50px; 
+    padding: 0; 
+    margin: 0;
+}
+
+header img { 
+    width: 150px;
+    padding: 10px;
+    margin: auto;
+    height: auto;
+}
+
+main img {
+    width: 95%;
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    margin-top: -10%;
+    margin-bottom: 15%;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+    margin-bottom: 0px;
+    padding: 50px 0;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 10%;
+    font-size: 100%;
+}
+
+.pot {
+    width: 10%;
+    justify-content: right;
+    float: right;
+    display: flex;
+    height: 40px;
+    margin: 0%;
+    padding: 0%;
+}
+
+footer {
+    background-color: #58200e;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%; 
+    text-align: center; 
+    padding: 10px 0;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center; 
+    gap: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #58200e;
+} 
+/*homepage*/
+.image-containertekstblok3 {
+    position: relative; /* Maak positionering mogelijk voor de tekst */
+    display: inline-block; /* Zorg dat het om de inhoud heen past */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    max-width: 600px; /* Optioneel: beperk de breedte */
+}
+
+.image-containertekstblok3 img {
+    display: flex; /* Verwijder ongewenste witruimte onder de afbeelding */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    height: auto; /* Automatisch bereken de hoogte van de afbeelding */
+    margin-top: -10%;  
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+}
+
+.text-overlayblok3 {
+    position: absolute; /* Plaats de tekst over de afbeelding */
+    font-size: 99%;
+    top: 49%; /* Centreer verticaal */
+    left: 50%; /* Centreer horizontaal */
+    transform: translate(-50%, -50%); /* Houd rekening met het middenpunt */
+    color: white; /* Witte tekstkleur voor contrast */
+    text-align: center; /* Center de tekst horizontaal */
+    border-radius: 10px; /* Maak de hoeken zacht */
+}
+
+.image-containertekstblok2 {
+    position: relative; /* Maak positionering mogelijk voor de tekst */
+    display: inline-block; /* Zorg dat het om de inhoud heen past */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    max-width: 600px; /* Optioneel: beperk de breedte */
+}
+
+.image-containertekstblok2 img {
+    display: flex; /* Verwijder ongewenste witruimte onder de afbeelding */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    height: auto; /* Automatisch bereken de hoogte van de afbeelding */
+    margin-top: 20%;  
+    margin-bottom: 10%;
+    padding-bottom: 17%;
+    margin-top: 6%;
+
+}
+
+.text-overlayblok2 {
+    position: absolute; /* Plaats de tekst over de afbeelding */
+    font-size: 99%;
+    top: 49%; /* Centreer verticaal */
+    left: 50%; /* Centreer horizontaal */
+    transform: translate(-50%, -50%); /* Houd rekening met het middenpunt */
+    color: white; /* Witte tekstkleur voor contrast */
+    text-align: center; /* Center de tekst horizontaal */
+    border-radius: 10px; /* Maak de hoeken zacht */
+}
+/*paginaplein4045*/
+.image-containertekstblok1 {
+    position: relative; /* Maak positionering mogelijk voor de tekst */
+    display: inline-block; /* Zorg dat het om de inhoud heen past */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    max-width: 600px; /* Optioneel: beperk de breedte */
+}
+
+.image-containertekstblok img {
+    margin-top: 0px;
+    display: flex; /* Verwijder ongewenste witruimte onder de afbeelding */
+    width: 400px; /* Laat de afbeelding responsief zijn */
+    height: auto; /* Behoud de verhoudingen */
+    justify-content: center;
+    padding: 5%;
+    margin: 5%;
+    margin-top: -30%;
+}
+
+.text-overlayblok1 {
+    position: absolute; /* Plaats de tekst over de afbeelding */
+    font-size: 99%;
+    top: 49%; /* Centreer verticaal */
+    left: 50%; /* Centreer horizontaal */
+    transform: translate(-50%, -50%); /* Houd rekening met het middenpunt */
+    color: white; 
+    text-align: center; /* Center de tekst horizontaal */
+    border-radius: 10px; /* Maak de hoeken zacht */
+    padding-top: 10%;
+}
+
+.image-containertekstblok2 {
+    position: relative; /* Maak positionering mogelijk voor de tekst */
+    display: inline-block; /* Zorg dat het om de inhoud heen past */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    max-width: 600px; /* Optioneel: beperk de breedte */
+}
+
+.imagine-containertekstblok2 img {
+    margin-top: 0px;
+    display: flex; /* Verwijder ongewenste witruimte onder de afbeelding */
+    width: 400px; /* Laat de afbeelding responsief zijn */
+    height: auto; /* Behoud de verhoudingen */
+    justify-content: center;
+    justify-items: center;
+    margin: 5%;
+    margin-top: -40%;
+}
+
+.text-overlayblok2 {
+    position: absolute; /* Plaats de tekst over de afbeelding */
+    font-size: 99%;
+    top: 49%; /* Centreer verticaal */
+    left: 50%; /* Centreer horizontaal */
+    transform: translate(-50%, -50%); /* Houd rekening met het middenpunt */
+    color: white; /* Witte tekstkleur voor contrast */
+    text-align: center; /* Center de tekst horizontaal */
+    border-radius: 10px; /* Maak de hoeken zacht */
+    margin-top: -20%;
+    padding-top: 5%;
+}
+
+.image-containertekstblok3 {
+    position: relative; /* Maak positionering mogelijk voor de tekst */
+    display: inline-block; /* Zorg dat het om de inhoud heen past */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    max-width: 600px; /* Optioneel: beperk de breedte */
+}
+
+.imagine-containertekstblok3 img {
+    margin-top: 0px;
+    display: flex; /* Verwijder ongewenste witruimte onder de afbeelding */
+    width: 400px; /* Laat de afbeelding responsief zijn */
+    height: auto; /* Behoud de verhoudingen */
+    justify-content: center;
+    justify-items: center;
+    margin: 5%;
+    margin-top: -30%;
+    padding-bottom: 20%;
+}
+
+.text-overlayblok3 {
+    position: absolute; /* Plaats de tekst over de afbeelding */
+    font-size: 99%;
+    top: 49%; /* Centreer verticaal */
+    left: 50%; /* Centreer horizontaal */
+    transform: translate(-50%, -50%); /* Houd rekening met het middenpunt */
+    color: white; /* Witte tekstkleur voor contrast */
+    text-align: center; /* Center de tekst horizontaal */
+    border-radius: 10px; /* Maak de hoeken zacht */
+    margin-top: -20%;
+    padding-top: 5%;
+}
+/*familiepagina*/
+.image-containerblok1 {
+    position: relative; /* Maak positionering mogelijk voor de tekst */
+    display: inline-block; /* Zorg dat het om de inhoud heen past */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    max-width: 600px; /* Optioneel: beperk de breedte */
+}
+
+.imagine-containerblok1 img {
+    margin-top: 0px;
+    display: flex; /* Verwijder ongewenste witruimte onder de afbeelding */
+    width: 400px; /* Laat de afbeelding responsief zijn */
+    height: auto; /* Behoud de verhoudingen */
+    justify-content: center;
+    justify-items: center;
+    padding: 5%;
+    margin: 5%;
+}
+
+.text-overlayblok1 {
+    position: absolute; /* Plaats de tekst over de afbeelding */
+    font-size: 99%;
+    top: 49%; /* Centreer verticaal */
+    left: 50%; /* Centreer horizontaal */
+    transform: translate(-50%, -50%); /* Houd rekening met het middenpunt */
+    color: white; /* Witte tekstkleur voor contrast */
+    text-align: center; /* Center de tekst horizontaal */
+    border-radius: 10px; /* Maak de hoeken zacht */
+    margin-top: -20%;
+}
+
+.image-containerblok2 {
+    position: relative; /* Maak positionering mogelijk voor de tekst */
+    display: inline-block; /* Zorg dat het om de inhoud heen past */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    max-width: 600px; /* Optioneel: beperk de breedte */
+}
+
+.imagine-containerblok2 img {
+    margin-top: 0px;
+    display: flex; /* Verwijder ongewenste witruimte onder de afbeelding */
+    width: 400px; /* Laat de afbeelding responsief zijn */
+    height: auto; /* Behoud de verhoudingen */
+    justify-content: center;
+    justify-items: center;
+    padding: 5%;
+    margin: 5%;
+}
+
+.text-overlayblok2 {
+    position: absolute; /* Plaats de tekst over de afbeelding */
+    font-size: 99%;
+    top: 49%; /* Centreer verticaal */
+    left: 50%; /* Centreer horizontaal */
+    transform: translate(-50%, -50%); /* Houd rekening met het middenpunt */
+    color: white; /* Witte tekstkleur voor contrast */
+    text-align: center; /* Center de tekst horizontaal */
+    border-radius: 10px; /* Maak de hoeken zacht */
+    margin-top: -20%;
+}
+
+.image-containerblok3 {
+    position: relative; /* Maak positionering mogelijk voor de tekst */
+    display: inline-block; /* Zorg dat het om de inhoud heen past */
+    width: 100%; /* Of stel een vaste breedte in, zoals 400px */
+    max-width: 600px; /* Optioneel: beperk de breedte */
+}
+
+.imagine-containertekstblok3 img {
+    margin-top: 0px;
+    display: flex; /* Verwijder ongewenste witruimte onder de afbeelding */
+    width: 400px; /* Laat de afbeelding responsief zijn */
+    height: auto; /* Behoud de verhoudingen */
+    justify-content: center;
+    justify-items: center;
+    margin: 5%;
+    margin-top: -30%;
+    padding-bottom: 20%;
+}
+
+.text-overlayblok3 {
+    position: absolute; /* Plaats de tekst over de afbeelding */
+    font-size: 99%;
+    top: 49%; /* Centreer verticaal */
+    left: 50%; /* Centreer horizontaal */
+    transform: translate(-50%, -50%); /* Houd rekening met het middenpunt */
+    color: white; /* Witte tekstkleur voor contrast */
+    text-align: center; /* Center de tekst horizontaal */
+    border-radius: 10px; /* Maak de hoeken zacht */
+    margin-top: -20%;
+    padding-top: 5%;
+}
